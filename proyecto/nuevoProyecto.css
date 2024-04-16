@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito' , sans-serif;
+    font-size: 28px;
+    
+}
+body{
+    background-color: #335de7;
+    width: 100%;
+    height: 100vh;  
+    align-items: center;
+    font-family: sans-serif;
+    
+}
+.header{
+    background-color: #f7f7ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+   
+}
+.header .Logo img{
+    height: 70px;
+    width: auto;
+}
+.header .Logo{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.header .Logo img:hover{
+    transform: scale(1.2);
+}
+.header .nav_links{
+    list-style: none;
+    
+}
+.header .nav_links li{
+    display: inline-block;
+    padding: 0 20px
+}
+.header .nav_links a{
+    font-size: 700;
+    color: #000000;
+    text-decoration: none;
+    
+    
+}
+.header .nav_links li:hover{
+    transform: scale(1.1);
+    
+}
+.header .nav_links li a:hover{
+    color:  #335de7;
+    
+    cursor: pointer;
+    
+}
+
+.btn{
+    text-decoration: none;
+    color: #000000;
+    flex-direction: column;
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1 ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease 0s;
+}
+.btn:hover{
+    color:  #335de7;
+    background-color: #e2f1f8;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+.contenedor {
+    text-align: center; /* Centra horizontalmente el contenido */
+    height: 500px; /* Ejemplo de altura, ajusta según sea necesario */
+    background-color: #335de7; /* Solo para visualizar el contenedor */
+  }
+  
+  .contenedor img {
+    vertical-align: middle; /* Alinea verticalmente la imagen */
+    max-width: 100%; /* Asegura qu                                                                             e la imagen no exceda el tamaño del contenedor */
+    max-height: 100%; /* Asegura que la imagen no exceda el tamaño del contenedor */
+  }
+ 
+footer {
+    background-color: rgb(29, 79, 121);
+    color: #000000;
+    text-align: center;
+    padding: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  li{
+    display: list-item;
+  }
+  .container{
+    width: 100%;
+    max-width: 1100px;
+    height: 100vh;
+   
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin: 0 auto; /* Centrar horizontalmente con margen automático */
+    padding: 20px;
+    text-align: center;
+}
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;  
+
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 100%;
+    height: 210px;
+}
+.card .contenido{
+padding: 15px;
+text-align: center;
+align-items: center;
+
+}
+.card .contenido p{
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+
+}
+.card .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400 ease;
+}
+.card .contenido:hover{
+    background-color: #ffffff;
+    color: #fff;
+}
+h3{
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400;
+    font-style: normal
+    }
